@@ -1,0 +1,15 @@
+<용어정리>
+DBMS : db관리(management)시스템(system)
+
+entity : 개체(객체_)
+entity의 속성(attribute) ==> table(item, item, item)
+
+스키마(를) 설계(design)
+table : 제약조건(constraints)을 명시
+id : 기본키 - (우선키,중요키(pk-primary key)) 설정 =? not null + 중복허용x
+	  - 학생이름 기본키x -> '중복' 될 수 있기떄문.
+	  - '유일'한 값이어야 한다.
+	  - EX) id가능 pw 불가능
+   : 외래키 - (foreign key)
+	  - 관계성표현!!!
+	  - * 타입이 같아야함
